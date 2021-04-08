@@ -2,4 +2,4 @@
 # data = "   삼성전자    "
 
 data = "   삼성전자    "
-print(data.strip())
+print(data.strip()) 
