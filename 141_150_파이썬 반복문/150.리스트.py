@@ -8,6 +8,6 @@
 # 나
 # 가
 
-lst = ["가", "나", "다", "라"]
-for i in lst[-1::-1]:
+result = ["가", "나", "다", "라"]
+for i in result[-1::-1]:
     print(i)
