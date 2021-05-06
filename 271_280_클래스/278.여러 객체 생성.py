@@ -62,9 +62,6 @@ result.append(b)
 result.append(c)
 
 for i in result:
-    print("은행이름: ", i.bank)
-    print("예금주: ", i.name)
-    print("계좌번호: ", i.account_number)
-    print("잔고: ", format(i.code, ','))
+    i.display_info()
 
 
