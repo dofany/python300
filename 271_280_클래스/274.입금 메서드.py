@@ -29,11 +29,7 @@ class Account:
         if amount >= 1:
             self.code += amount
 
-    def withdrwa(self,amount):
-        if self.code > amount:
-            self.code -= amount
-
 a = Account("홍길동",100)
-a.deposit(100)
-a.withdrwa(90)
+a.deposit(10)
+b = Account("임꺽정",100)
 print(a.code)
