@@ -29,7 +29,7 @@ class Account:
         if amount >= 1:
             self.code += amount
 
-    def withdrwa(self,amount):
+    def withdraw(self,amount):
         if self.code > amount:
             self.code -= amount
 
